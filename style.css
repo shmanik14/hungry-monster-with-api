@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Menu CSS*/
+.main-nav .navbar-nav .nav-link{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 15px;
+}
+.navbar-light a.navbar-brand{
+    font-weight: 700;
+    font-size: 30px;
+    color: tomato;
+}
+.serachbar{
+    padding: 50px 0;
+}
+.serachbar .form-control{
+    border-radius: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#search-btn{
+    border-radius: 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+#menu-area{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+.single-menu img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.single-menu h3 {
+    background-color: #f6f6f6;
+    text-align: center;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
